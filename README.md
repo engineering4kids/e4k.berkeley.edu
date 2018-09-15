@@ -9,7 +9,7 @@ Title I schools, and making arrangements to guarantee those students a spot in t
 
 
 ## Things to Know
-This repo serves as development for the webpages hosted at
+Pages hosted at
 [e4k.berkeley.edu](https://e4k.berkeley.edu)
 
 All pages before Fall 2017 were lost, but can be viewed using the 
