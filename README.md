@@ -1,4 +1,4 @@
-# e4k.berkeley.edu 
+# e4k.berkeley.edu
 Development repository for e4k.berkeley.edu. Engineering 4 Kids is a student organization on the UC Berkeley campus.
 
 ## About Engineering for Kids
@@ -10,7 +10,7 @@ participation of underrepresented students in the local community by contacting 
 Title I schools, and making arrangements to guarantee those students a spot in the program.
 
 ## Things to Know
-Pages hosted at 
+Pages hosted at
 [e4k.berkeley.edu](https://e4k.berkeley.edu)
 
 All pages before Fall 2017 were lost, but can be viewed using the 
