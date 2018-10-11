@@ -1,0 +1,43 @@
+#landing-page {
+	background: linear-gradient(rgba(44,62,80,.7), rgba(44,62,80,0.7)),url("../img/group-outside.jpeg"); 
+	background-repeat: no-repeat;
+	background-size: 100% cover;
+	background-position: center 50%;
+}
+
+#header-text {
+	margin-bottom: 50%;
+}
+
+#navbar-logo {
+	height: 2.5em;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.avoid-wrap {
+	display: inline-block;
+}
+.company-logo {
+	max-height: 200px;
+	max-width: 400px;
+	float: left;
+}
+
+#company-logos {
+	margin-top: 3em;
+}
+
+.company-logo-container {
+	height: 200px;
+	display: inline-block;
+	margin-bottom: 3em;
+	margin-right: 3em;
+
+}
+hr {
+	background-color: #2C3E50;
+}
+
