@@ -8,7 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>E4K at Berkeley</title>
+    <title>Engineering for Kids</title>
+    <link rel="icon" href="img/favicon-228x228.png" type="image/png" sizes="228x228">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +24,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
 
   </head>
 
@@ -31,7 +34,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Engineering For Kids</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img id="navbar-logo" src="img/e4k-logo-sm.png">
+        </a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -39,13 +44,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Volunteers</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Participants</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Sponsors</a>
             </li>
           </ul>
         </div>
@@ -53,21 +58,18 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-white text-white text-center" id="landing-page">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">Engineering for Kids</h1>
-        <hr style="align:center; border-color:#2C3E50; border-width:3px; width:95%">
-        <h2 class="font-weight-light mb-0">We are a student organization at UC Berkeley striving
-          to expand local students' interest in STEM.</h2>
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/e4k-logo-sm.png" alt="">
+        <h1 class="text-uppercase mb-0" id="header-text">Engineering <span class="avoid-wrap">for Kids</span></h1>
       </div>
     </header>
 
     <!-- Portfolio Grid Section -->
+    <!--
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -132,25 +134,47 @@
         </div>
       </div>
     </section>
+  -->
 
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
+    <section class="bg-white text-secondary mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
+        <h2 class="text-center text-uppercase">About</h2>
+        <div class="row mt-4">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p class="lead">Engineering for Kids Day (E4K) is an annual outreach event hosted by the UC Berkeley engineering community. E4K hosts hundreds of students in grades 4-6 for a FREE one-day science and engineering education event on the UC Berkeley campus. Kids participate in fun, hands-on engineering activities organized and taught by UC Berkeley undergraduates, graduates, and faculty.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p class="lead">E4K also encourages the participation of underrepresented students in the local community by contacting local outreach programs and Title I schools and making arrangements to guarantee those students a spot in the program.</p>
           </div>
         </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fas fa-download mr-2"></i>
-            Download Now!
-          </a>
+      </div>
+    </section>
+
+    <!-- Past Sponsors Section -->
+    <hr class="bg-secondary">
+    <section class="bg-white text-secondary mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase">Past Sponsors</h2>
+        <div class="row">
+          <div class="text-center mt-4">
+              <p class="lead">Engineering for Kids Day would not be possible without the generous support of our corporate sponsors. Thank you to these companies for their contributions!</p>
+          </div>
+        </div>
+        <div id="company-logos">
+          <div class="company-logo-container img-fluid">
+            <a href="https://www.gm.com" target="_blank"><img src="img/company-logos/gm.png" alt="General Motors" class="company-logo"></a>
+          </div>
+          <div class="company-logo-container img-fluid">
+            <a href="https://www.google.com/about" target="_blank"><img src="img/company-logos/google.png" alt="Google" class="company-logo"></a>
+          </div>
+          <div class="company-logo-container img-fluid">
+            <a href="https://www.intel.com" target="_blank"><img src="img/company-logos/intel.png" alt="Intel" class="company-logo"></a>
+          </div>
+          
+          <div class="company-logo-container img-fluid">
+            <a href="https://www.oracle.com" target="_blank"><img src="img/company-logos/oracle.png" alt="Oracle" class="company-logo"></a>
+          </div>
         </div>
       </div>
     </section>
@@ -204,7 +228,8 @@ TODO: Fix comments
         </div>
       </div>
     </section>
-
+-->
+    <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
@@ -251,7 +276,7 @@ TODO: Fix comments
         </div>
       </div>
     </footer>
--->
+
     <div class="copyright py-4 text-center text-white">
       <div class="container">
         <div class="row">
@@ -263,7 +288,7 @@ TODO: Fix comments
             <small> We take full responsibility for our organization and this web site.</small>
           </div>
           <div class="col">
-            <a href="https://www.ofc.berkeley.edu">
+            <a href="https://www.ocf.berkeley.edu" target="_blank">
               <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg" alt="Hosted by the OCF" style="float:right">
             </a>
           </div>
