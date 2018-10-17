@@ -23,7 +23,9 @@
 .company-logo {
 	max-height: 200px;
 	max-width: 400px;
-	float: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #company-logos {
@@ -40,4 +42,3 @@
 hr {
 	background-color: #2C3E50;
 }
-
