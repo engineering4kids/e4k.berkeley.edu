@@ -17,6 +17,14 @@
 	background-color: white;
 }
 
+.bg-custom {
+    background-color: #e9ecef;
+}
+
+.page-link {
+    color: #000162;
+}
+
 .avoid-wrap {
 	display: inline-block;
 }
@@ -73,7 +81,7 @@
 
 }
 hr {
-	background-color: #2C3E50;
+	background-color: #003262;
 }
 
 .icon {
