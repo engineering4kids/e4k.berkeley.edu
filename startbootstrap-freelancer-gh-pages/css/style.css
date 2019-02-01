@@ -17,13 +17,56 @@
 	background-color: white;
 }
 
+.bg-custom {
+    background-color: #e9ecef;
+}
+
+.page-link {
+    color: #003262;
+}
+
 .avoid-wrap {
 	display: inline-block;
 }
 .company-logo {
-	max-height: 200px;
-	max-width: 400px;
-	float: left;
+	height: 160px;
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 1px;
+  width: 1px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '';
+  font-size: 1px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '';
+  font-size: 1px;
+  color: black;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
 }
 
 #company-logos {
@@ -38,6 +81,16 @@
 
 }
 hr {
-	background-color: #2C3E50;
+	background-color: #003262;
 }
 
+.icon {
+    max-height: 50px;
+    width: auto;
+}
+
+.table-checkmark {
+    font-size:150%;
+    font-weight:bold;
+    color:#212529;
+}
