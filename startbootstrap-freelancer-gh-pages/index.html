@@ -46,18 +46,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+                <!-- TODO: Reorder after adding volunteer and student details -->
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
                 </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#participants">Participants</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#volunteers">Volunteers</a>
+                </li>
+
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#sponsor-us">Sponsors</a>
                 </li>
 
 
-                <!-- TODO: Reorder after adding volunteer and student details -->
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#holder">Participants/Volunteers</a>
-                </li>
             </ul>
         </div>
     </div>
@@ -147,15 +151,93 @@
     <div class="container">
         <h2 class="text-center text-uppercase">About</h2>
         <div class="row mt-4">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Engineering for Kids (E4K) at UC Berkeley is a student organization that collaborates with clubs and students from across the university’s engineering community to host an annual one-day science and engineering education event for local fourth- to sixth-grade students. Attendees at Engineering for Kids Day engage in fun, hands-on activities led by Berkeley students from a wide range of engineering disciplines. Thanks to the generosity of volunteers and corporate sponsors, this event is completely free for all participants and families!</p>
+          <div class="col-6 ml-auto">
+            <p class="lead text-justify">Engineering for Kids (E4K) at UC Berkeley is a student organization that collaborates with clubs and students from across the university’s engineering community to host an annual one-day science and engineering education event for local fourth- to sixth-grade students. Attendees at Engineering for Kids Day engage in fun, hands-on activities led by Berkeley students from a wide range of engineering disciplines. Thanks to the generosity of volunteers and corporate sponsors, this event is completely free for all participants and families!</p>
           </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">E4K strives to decrease demographic disparities in STEM (science, technology, engineering, and mathematics) fields by working with Title I schools and local outreach programs to encourage the participation of underrepresented students from surrounding Bay Area communities. By providing these young students with exciting, memorable experiences in science and engineering, E4K hopes to inspire a new generation of innovators and entrepreneurs.</p>
-          </div>
+          <div class="col-6 mr-auto">
+            <p class="lead text-justify">E4K strives to decrease demographic disparities in STEM (science, technology, engineering, and mathematics) fields by working with Title I schools and local outreach programs to encourage the participation of underrepresented students from surrounding Bay Area communities. By providing these young students with exciting, memorable experiences in science and engineering, E4K hopes to inspire a new generation of innovators and entrepreneurs.</p>
+          
         </div>
     </div>
 </section>
+
+<!-- Details coming soon holder -->
+<section class="bg-white text-secondary mb-0" id="holder">
+    <div class="container">
+        <h2 class="text-center text-uppercase">Participants</h2>
+        <div class="row-center">
+            <div class="text-center mt-4">
+                <p class="lead text-center">Engineering for Kids Day will be
+                    <span style="font-weight:bold">Saturday, March 9th, 2019</span>. Registration for
+                    the event will start <span style="font-weight:bold">Wednesday, February 6th at 9:00 A.M. </span>
+                    Participants must be registered to attend the event. We look forward to a great day!
+                </p>
+                    <br><br>
+                <p class="lead text-center">
+                    The schedule for E4K Day 2019 is still being finalized. Here are the details from last year's event to
+                    get an understanding of how the day will go.</p>
+
+                <div class="row">
+                    <div class="col-12">
+                      <div id="carousel4" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" style="height:350px;">
+                        <div class="carousel-item active">
+                          <img src="img/schedule.PNG" alt="Schedule 2017">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/activity1.PNG" alt="Schedule 2017">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/activity2.PNG" alt="Schedule 2017">
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <nav aria-label="Page navigation schedule" style="display: inline-block; color: #003262">
+                       <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#carousel4" aria-label="Previous" data-slide="prev">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                        </li>
+                        <li data-target="#carousel4" data-slide-to="0" class="active"><a class="page-link" href="#">1</a></li>
+                        <li data-target="#carousel4" data-slide-to="1"><a class="page-link" href="#">2</a></li>
+                        <li data-target="#carousel4" data-slide-to="2"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#carousel4" aria-label="Next" data-slide="next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </li>
+                      </ul>
+                     </nav>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-custom text-secondary mb-0" id="holder">
+    <div class="container">
+        <h2 class="text-center text-uppercase">Volunteers</h2>
+        <div class="row-center">
+            <div class="text-center mt-4">
+                <p class="lead text-center">U.C. Berkeley student organizations interested in volunteering at Engineering for Kids Day on March 9, 2019 can now register <span style="font-weight:bold"><a href="https://goo.gl/forms/Qvkh1n0busU3hz0I3" target="_blank" class="text-secondary">here</a></span>. Thank you for your support!
+                </p>
+                <a href="https://goo.gl/forms/Qvkh1n0busU3hz0I3" target="_blank"><button type="button" class="btn btn-primary btn-lg">VOLUNTEER REGISTRATION</button></a>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 <section class="bg-white text-secondary mb-0" id="past-sponsors">
@@ -214,26 +296,6 @@
 
                     </div>
                 </div>
-                <div class="row">
-                   <div class="col-12">
-                     <nav aria-label="Page navigation companies" style="display: inline-block">
-                        <ul class="pagination">
-                         <li class="page-item" style="width:120px;">
-                           <a class="page-link" href="#carousel1" aria-label="Previous" data-slide="prev">
-                             <span aria-hidden="true">&laquo; Previous</span>
-                             <span class="sr-only">Previous</span>
-                           </a>
-                         </li>
-                         <li class="page-item" style="width:120px;">
-                           <a class="page-link" href="#carousel1" aria-label="Next" data-slide="next">
-                             <span aria-hidden="true">Next &raquo;</span>
-                             <span class="sr-only">Next</span>
-                           </a>
-                         </li>
-                       </ul>
-                      </nav>
-                   </div>
-                 </div>
             </div>
         </div>
     </div>
@@ -309,61 +371,6 @@
 </section>
 -->
 
-<!-- Details coming soon holder -->
-<section class="bg-white text-secondary mb-0" id="holder">
-    <div class="container">
-        <h2 class="text-center text-uppercase">Participants and Volunteers</h2>
-        <div class="row-center">
-            <div class="text-center mt-4">
-                <p class="lead text-center">E4K is working hard to plan Engineering for Kids Day 2019. Once more details
-                    are known, we will release sign up forms to secure your spot at the event. Here are the details from
-                    last year's event to get an understanding of how the day will go.</p>
-
-                <div class="row">
-                    <div class="col-12">
-                      <div id="carousel4" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" style="height:350px;">
-                        <div class="carousel-item active">
-                          <img src="img/schedule.PNG" alt="Schedule 2017">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="img/activity1.PNG" alt="Schedule 2017">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="img/activity2.PNG" alt="Schedule 2017">
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <nav aria-label="Page navigation schedule" style="display: inline-block; color: #003262">
-                       <ul class="pagination">
-                        <li class="page-item">
-                          <a class="page-link" href="#carousel4" aria-label="Previous" data-slide="prev">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                        </li>
-                        <li data-target="#carousel4" data-slide-to="0" class="active"><a class="page-link" href="#">1</a></li>
-                        <li data-target="#carousel4" data-slide-to="1"><a class="page-link" href="#">2</a></li>
-                        <li data-target="#carousel4" data-slide-to="2"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                          <a class="page-link" href="#carousel4" aria-label="Next" data-slide="next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </li>
-                      </ul>
-                     </nav>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Lines 157, 164, 165 were comments that needed to be modified for this block comment.
 TODO: Fix comments
