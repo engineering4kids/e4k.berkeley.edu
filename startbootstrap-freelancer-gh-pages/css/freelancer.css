@@ -363,6 +363,10 @@ a:focus, a:hover, a:active {
   color: #003262 !important;
 }
 
+.text-tertiary {
+  background-color: #1a252f;
+}
+
 .btn-primary {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
